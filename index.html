@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NHK Restaurant - Home</title>
+    <link rel="stylesheet" href="CSS/My Css.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="HTML/menu.html">Menu</a></li>
+          <li><a href="HTML/about.html">About</a></li>
+          <li><a href="HTML/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Welcome to NHK Restaurant</h1>
+        <br />
+        <p>
+          Experience the best dining in town with our mouth-watering dishes.
+        </p>
+        <br />
+        <button><a href="HTML/menu.html">view Menu</a></button>
+      </section>
+      <section class="featured">
+        <h2>Featured Dishes</h2>
+        <div class="grid">
+          <div class="item">
+            <img src="image/chicken mandi - Copy.png" alt="Dish 1" />
+            <h3>Chicken Mandi</h3>
+            <p>
+              The word "Mandi" comes from the Arabic word 'nada', meaning dew,
+              and actually describes the moist 'dewy' texture of meat. Mandi is
+              made from rice, meat (lamb or chicken), and a mixture of mild but
+              intense spices.
+            </p>
+          </div>
+          <div class="item">
+            <img src="IMAGE\Kitfo.png" alt="Dish 2" />
+            <h3>Kitfo</h3>
+            <p>
+              Kitfo is an Ethiopian traditional dish which originated among the
+              Gurage people. It consists of minced raw beef, marinated in
+              mitmiita and niter kibbeh.
+            </p>
+          </div>
+          <div class="item">
+            <img src="IMAGE\Tibs.png" alt="Dish 3" />
+            <h3>Ethiopian Tibs</h3>
+            <p>
+              Ethiopian tibs is a dish made from cubed beef or lamb peppers,
+              veggies, lemon Juice, and other ingeridients. It flavorful and
+              delicious meal that is gaining popularity worldwide. Beef tibs
+              recipe is made from beef as the protein, while Ethiopian lamb tibs
+              will use lamb.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="reservation">
+        <h2>Make a Reservation</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required />
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required />
+          <label for="guests">Number of guests:</label>
+          <input
+            type="number"
+            id="guests"
+            name="guests"
+            min="1"
+            max="10"
+            required
+          />
+          <button type="submit">Make Reservation</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 NHK Restaurant. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
